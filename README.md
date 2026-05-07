@@ -1,5 +1,15 @@
 # Data science development environment
 
+[![Sync release](https://github.com/gperdrizet/datascience-devcontainer/actions/workflows/sync-release.yml/badge.svg)](https://github.com/gperdrizet/datascience-devcontainer/actions/workflows/sync-release.yml)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-latest-189fdd)](https://xgboost.readthedocs.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-latest-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
+[![CUDA](https://img.shields.io/badge/CUDA-12.8-76B900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Docker Pulls datascience-nvidia](https://img.shields.io/docker/pulls/gperdrizet/datascience-nvidia?label=datascience-nvidia&logo=docker)](https://hub.docker.com/r/gperdrizet/datascience-nvidia)
+[![Docker Pulls datascience-cpu](https://img.shields.io/docker/pulls/gperdrizet/datascience-cpu?label=datascience-cpu&logo=docker)](https://hub.docker.com/r/gperdrizet/datascience-cpu)
+[![Docker Pulls datascience-mac](https://img.shields.io/docker/pulls/gperdrizet/datascience-mac?label=datascience-mac&logo=docker)](https://hub.docker.com/r/gperdrizet/datascience-mac)
+
 A ready-to-use data science environment for VS Code, designed for intro Python and ML bootcamp students. Covers data visualization, data cleaning, feature engineering, and traditional machine learning. Available in three configurations: NVIDIA GPU, CPU-only, and Mac (Apple Silicon).
 
 ## What's included
