@@ -10,7 +10,7 @@
 [![Docker Pulls datascience-cpu](https://img.shields.io/docker/pulls/gperdrizet/datascience-cpu?label=datascience-cpu&logo=docker)](https://hub.docker.com/r/gperdrizet/datascience-cpu)
 [![Docker Pulls datascience-mac](https://img.shields.io/docker/pulls/gperdrizet/datascience-mac?label=datascience-mac&logo=docker)](https://hub.docker.com/r/gperdrizet/datascience-mac)
 
-A ready-to-use data science environment for VS Code, designed for intro Python and ML bootcamp students. Covers data visualization, data cleaning, feature engineering, and traditional machine learning.
+A ready-to-use data science environment for VS Code, designed for data science and ML bootcamp students. Covers data visualization, data cleaning, feature engineering, and traditional machine learning.
 
 ## Requirements
 
@@ -19,10 +19,10 @@ A ready-to-use data science environment for VS Code, designed for intro Python a
 - [VS Code](https://code.visualstudio.com/) with the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 **NVIDIA GPU users** (also required)
-- NVIDIA driver ≥570 — [download](https://www.nvidia.com/Download/index.aspx)
+- NVIDIA driver ≥570 ([download](https://www.nvidia.com/Download/index.aspx))
 - [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) *(Linux only — not needed on Windows)*
 
-> **Mac users:** GPU acceleration (Metal/MPS) does not pass through to Docker containers. The Mac configuration uses native ARM64 CPU — no extra setup needed beyond Docker Desktop.
+> **Mac users:** GPU acceleration (Metal/MPS) does not pass through to Docker containers. The Mac configuration uses native ARM64 CPU, no extra setup needed beyond Docker Desktop.
 
 ## Quick start
 
@@ -35,7 +35,7 @@ A ready-to-use data science environment for VS Code, designed for intro Python a
 
 3. **Open the folder in VS Code**, then open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and run **Dev Containers: Open Folder in Container**
 
-   > VS Code will ask which configuration to use — pick the one that matches your machine (see table below).
+   > VS Code will ask which configuration to use, pick the one that matches your machine (see table below).
 
 4. **Verify** your setup by running `notebooks/environment_test.ipynb`
 
@@ -67,7 +67,7 @@ Fork this repo once, then use it as a GitHub template to spin up new projects in
    git clone https://github.com/<your-username>/my-new-project.git
    ```
 
-4. **Clean it up** — remove anything that doesn't belong to your project:
+4. **Clean it up** - remove anything that doesn't belong to your project:
    - Update `README.md` to describe your project
    - Delete unused devcontainer configs (e.g. if you only use CPU, remove `nvidia/` and `mac/`)
    - Remove or replace `notebooks/environment_test.ipynb` with your own notebooks
@@ -78,7 +78,7 @@ Fork this repo once, then use it as a GitHub template to spin up new projects in
 
 ## Adding Python packages
 
-### Temporary (lost on rebuild)
+### Temporary (lost on container rebuild)
 
 ```bash
 pip install <package-name>
