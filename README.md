@@ -78,6 +78,8 @@ datascience-devcontainer/
 | Hopper | H100, H200 | 9.0 |
 | Blackwell | RTX 5070-5090, B100, B200 | 10.0 |
 
+Check your GPU's compute capability: [NVIDIA CUDA GPUs](https://developer.nvidia.com/cuda-gpus)
+
 ## Quick start
 
 1. **Fork** this repository (click "Fork" button above)
